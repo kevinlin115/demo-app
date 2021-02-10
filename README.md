@@ -1,3 +1,7 @@
+# Command to push to github
+npm install -g angular-cli-ghpages
+ng build --prod --base-href "https://kevinlin115.github.io/demo-app/"
+ngh --dir dist/demo-app
 # DemoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
